@@ -37,5 +37,5 @@ jobs:
             FOD_USER: ${{secrets.FOD_EMEA_USER_DEMO}}
             FOD_PASSWORD: ${{secrets.FOD_EMEA_PWD_DEMO}}
             FOD_RELEASE: "Test_1:MS1:1.0"          
-            EXTRA_PACKAGE_OPTS: "-bt mvn -DskipTests=true"
+            EXTRA_PACKAGE_OPTS: "-bt mvn"
             DO_EXPORT: "false"
